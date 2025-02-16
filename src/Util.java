@@ -61,11 +61,57 @@ public class Util {
             case "*":
                 System.out.println(firstNumber * secondNumber);
                 break;
+            case "/":
+                if (secondNumber == 0) {UserInputOutput.printText("0 bolme emeliyyati etdiniz ");} else
+                {System.out.println(firstNumber / secondNumber);}
+                break;
             default:
                 System.out.println("Yanlis emiliyyat daxil etdiniz");
         }
+
     }
 
-
-
+    public static void printMonthForNumber (int num){
+        switch (num){
+            case 1:
+                System.out.println("Yanvar");
+                break;
+            case 2:
+                System.out.println("Fevral");
+                break;
+            case 3:
+                System.out.println("Mart");
+                break;
+            case 4:
+                System.out.println("Aprel");
+                break;
+            case 5:
+                System.out.println("May");
+                break;
+            case 6:
+                System.out.println("İyun");
+                break;
+            case 7:
+                System.out.println("İyul");
+                break;
+            case 8:
+                System.out.println("Avqust");
+                break;
+            case 9:
+                System.out.println("Sentyabr");
+                break;
+            case 10:
+                System.out.println("Oktyabr");
+                break;
+            case 11:
+                System.out.println("Noyabr");
+                break;
+            case 12:
+                System.out.println("Dekabr");
+                break;
+            default:
+                System.out.println("Yanlış ay nömrəsi daxil etdiniz!");
+                break;
+        }
+    }
 }

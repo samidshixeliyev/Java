@@ -35,9 +35,13 @@ public class Main {
             numbers[i] = UserInputOutput.getUserIntInput();
             System.out.print(numbers[i] + " arraya daxil edildi \n Novbeti ededi daxil edin: \n");
         }
+
         Util.sortArray(numbers,false);
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
         }
+        System.out.println();
+        Tasks.evenNumbersTo100();
     }
+
 }
