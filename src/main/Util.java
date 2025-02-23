@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package main;
 
 public class Util {
 
@@ -62,7 +62,8 @@ public class Util {
                 System.out.println(firstNumber * secondNumber);
                 break;
             case "/":
-                if (secondNumber == 0) {UserInputOutput.printText("0 bolme emeliyyati etdiniz ");} else
+                if (secondNumber == 0) {
+                    UserInputOutput.printText("0 bolme emeliyyati etdiniz ");} else
                 {System.out.println(firstNumber / secondNumber);}
                 break;
             default:
