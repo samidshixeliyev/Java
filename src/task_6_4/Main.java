@@ -18,5 +18,21 @@ public class Main {
         }
         Util.sortArray(nums,true);
         UserInputOutput.printArray(nums);
+        //Task 6.4.2
+        int [] numbers =new int[8];
+        UserInputOutput.printText("Enter 8 numbers:");
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = UserInputOutput.getUserIntInput();
+            if(i==numbers.length-1){
+                UserInputOutput.printText(numbers[i] + " arraya daxil edildi");
+            }
+            else
+            {UserInputOutput.printText(numbers[i] + " arraya daxil edildi \n Novbeti ededi daxil edin: ");}
+        }
+        Util.sortArray(numbers,false);
+        UserInputOutput.printArray(numbers);
+        //Task 6.4.3
+//      Util.sortArray(nums,false);
+        UserInputOutput.printArrayReverse(numbers);
     }
 }
