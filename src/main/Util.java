@@ -61,13 +61,13 @@ public class Util {
             case "*":
                 System.out.println(firstNumber * secondNumber);
                 break;
-<<<<<<< HEAD:src/main/Util.java
-            case "/":
+
+            case "/ ":
                 if (secondNumber == 0) {
                     UserInputOutput.printText("0 bolme emeliyyati etdiniz ");} else
                 {System.out.println(firstNumber / secondNumber);}
                 break;
-=======
+
              case "/":
             
                 if(secondNumber==0){System.out.println("Daxil etdiyiniz eded 0 olmamalidir");}
@@ -75,7 +75,6 @@ public class Util {
                     System.out.println(firstNumber / secondNumber);
                 }
                 break;   
->>>>>>> 870590b80627752f3e4099053509391971c48467:src/Util.java
             default:
                 System.out.println("Yanlis emiliyyat daxil etdiniz");
         }
