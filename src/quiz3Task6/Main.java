@@ -5,7 +5,13 @@ public class Main {
         Playable guitar = new Guitar(); // Guitar obyekti yaradılır
         Playable piano = new Piano(); // Piano obyekti yaradılır
 
-        guitar.play(); // Gitara səsi
-        piano.play(); // Piano səsi
+        guitar.play();
+        piano.play();
+
+        Movable car = new Car();
+        Movable robot = new Robot();
+
+        car.move();
+        robot.move();
     }
 }
