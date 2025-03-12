@@ -1,0 +1,3 @@
+Salam, dünya!
+Java IO nümunəsi.
+Men idi fayla output cixardacam
